@@ -1,7 +1,7 @@
 {
-  "name": "@descco/core-ui",
-  "version": "0.2.0",
-  "description": "Descco UI",
+  "name": "@togakure/styles",
+  "version": "0.0.0",
+  "description": "Togakure styles",
   "scripts": {
     "build": "yarn build:sass && yarn build:js && yarn build:images",
     "build:sass": "babel source/scss --out-dir lib/scss --copy-files --ignore 06-components",
@@ -18,8 +18,8 @@
   },
   "main": "lib/index.js",
   "keywords": [
-    "descco",
-    "ui-core"
+    "togakure",
+    "styles"
   ],
   "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (https://github.com/hemersonvianna)",
   "dependencies": {},
@@ -48,11 +48,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/descco-ui/core.git"
+    "url": "git+https://github.com/org-togakure/styles.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/descco-ui/core/issues"
+    "url": "https://github.com/org-togakure/styles/issues"
   },
-  "homepage": "https://github.com/descco-ui/core#readme"
+  "homepage": "https://github.com/org-togakure/styles#readme"
 }

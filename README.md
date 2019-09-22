@@ -1,13 +1,13 @@
-# Descco UI - Core
+# Togakure Styles
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
-[![GitHub issues](https://img.shields.io/github/issues/org-hesiod/core.svg)](https://github.com/org-hesiod/core/issues)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/org-hesiod/core.svg)
-![GitHub Release Date](https://img.shields.io/github/release-date/org-hesiod/core.svg)
-![GitHub top language](https://img.shields.io/github/languages/top/org-hesiod/core.svg)
-![GitHub repo size](https://img.shields.io/github/repo-size/org-hesiod/core.svg)
-![GitHub All Releases](https://img.shields.io/github/downloads/org-hesiod/core/total.svg)
-![npm](https://img.shields.io/npm/dt/@descco/ui-core.svg)
+[![GitHub issues](https://img.shields.io/github/issues/org-togakure/styles.svg)](https://github.com/org-togakure/styles/issues)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/org-togakure/styles.svg)
+![GitHub Release Date](https://img.shields.io/github/release-date/org-togakure/styles.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/org-togakure/styles.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/org-togakure/styles.svg)
+![GitHub All Releases](https://img.shields.io/github/downloads/org-togakure/styles/total.svg)
+![npm](https://img.shields.io/npm/dt/@togakure/styles.svg)
 
 ## Prerequisites
 
@@ -24,15 +24,15 @@ yarn
 ## In the your project
 
 ```bash
-npm install --save-dev @descco/ui-core
+npm install --save-dev @togakure/styles
 // or
-yarn add --dev @descco/ui-core
+yarn add --dev @togakure/styles
 ```
 
 ```bash
 // package.json
 "devDependencies": {
-  "@descco/ui-core": "vX.X.X"
+  "@togakure/styles": "vX.X.X"
 }
 ```
 
@@ -105,7 +105,7 @@ Questions and answers
 
 ## Log
 
-Check [Releases](https://github.com/org-hesiod/core/releases) for detailed changelog.
+Check [Releases](https://github.com/org-togakure/styles/releases) for detailed changelog.
 
 ## License
 
