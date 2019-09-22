@@ -1,15 +1,17 @@
-.form__form___2So5X {
+/*  imported from form.scss  */
+
+.form__form___2fu5Z {
   outline: none; }
 
-.form__horizontal___1tjAK [class*="form-group"] {
+.form__horizontal___51OWS [class*="form-group"] {
   max-width: 100%; }
-  .form__horizontal___1tjAK [class*="form-group"]:before, .form__horizontal___1tjAK [class*="form-group"]:after {
+  .form__horizontal___51OWS [class*="form-group"]:before, .form__horizontal___51OWS [class*="form-group"]:after {
     content: " ";
     display: table; }
-  .form__horizontal___1tjAK [class*="form-group"]:after {
+  .form__horizontal___51OWS [class*="form-group"]:after {
     clear: both; }
 
-.form__horizontal___1tjAK [class*="label"] {
+.form__horizontal___51OWS [class*="label"] {
   display: inline;
   float: left;
   padding-left: 10px;
@@ -20,7 +22,7 @@
   padding-top: 7px;
   text-align: right; }
 
-.form__horizontal___1tjAK [class*="form-addon"] {
+.form__horizontal___51OWS [class*="form-addon"] {
   display: inline;
   float: left;
   padding-left: 10px;
@@ -28,7 +30,7 @@
   width: 75%;
   margin-left: 0%; }
 
-.form__horizontal___1tjAK [class*="form-group-actions"] {
+.form__horizontal___51OWS [class*="form-group-actions"] {
   display: inline;
   float: left;
   padding-left: 10px;
@@ -36,12 +38,12 @@
   width: 75%;
   margin-left: 25%; }
 
-.form__inline___3v0nf [class*="form-group"] {
+.form__inline___2ke2w [class*="form-group"] {
   display: inline-block;
   margin-bottom: 0;
   vertical-align: middle; }
 
-.form__inline___3v0nf [class*="form-field"] {
+.form__inline___2ke2w [class*="form-field"] {
   display: inline-block;
   vertical-align: middle;
   width: auto; }

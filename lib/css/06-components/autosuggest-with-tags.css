@@ -1,21 +1,23 @@
+/*  imported from autosuggest-with-tags.scss  */
+
 /* ==========================================================================
    Auto Suggest With Tags Component
    ========================================================================== */
-.autosuggest-with-tags__autoSuggestWithTags-formControl___22yQn {
+.autosuggest-with-tags__autoSuggestWithTags-formControl___GZPS8 {
   margin-bottom: 10px; }
 
-.autosuggest-with-tags__autoSuggestWithTags-formGroup___L_8pO {
+.autosuggest-with-tags__autoSuggestWithTags-formGroup___2yHkC {
   position: relative; }
 
-.autosuggest-with-tags__autoSuggestWithTags-formGroup-button___1kBcF {
+.autosuggest-with-tags__autoSuggestWithTags-formGroup-button___2HbzX {
   float: right; }
 
-.autosuggest-with-tags__autoSuggestWithTags-itemWithButton___37-Yw {
+.autosuggest-with-tags__autoSuggestWithTags-itemWithButton___3zlsi {
   position: relative; }
-  .autosuggest-with-tags__autoSuggestWithTags-itemWithButton___37-Yw .autosuggest-with-tags__autoSuggestWithTags-formControl___22yQn {
+  .autosuggest-with-tags__autoSuggestWithTags-itemWithButton___3zlsi .autosuggest-with-tags__autoSuggestWithTags-formControl___GZPS8 {
     padding-right: 52px; }
 
-.autosuggest-with-tags__autoSuggestWithTags-itemWithButton-button___1fvCE {
+.autosuggest-with-tags__autoSuggestWithTags-itemWithButton-button___qp2ik {
   border-radius: 0;
   height: 40px;
   position: absolute;
@@ -23,19 +25,19 @@
   top: 0;
   width: 52px; }
 
-.autosuggest-with-tags__autoSuggestWithTags-tag___1PEQ7 {
+.autosuggest-with-tags__autoSuggestWithTags-tag___2OpFe {
   margin-bottom: 5px;
   margin-right: 10px; }
 
-.autosuggest-with-tags__actived___vR1T1 {
+.autosuggest-with-tags__actived___2qpYJ {
   background: #e0f3ef; }
-  .autosuggest-with-tags__actived___vR1T1 [class*="button"] {
+  .autosuggest-with-tags__actived___2qpYJ [class*="button"] {
     background: #e0f3ef;
     border-color: #e0f3ef; }
-  .autosuggest-with-tags__actived___vR1T1 path {
+  .autosuggest-with-tags__actived___2qpYJ path {
     background: #15947a; }
 
-.autosuggest-with-tags__errorMessage___298VG {
+.autosuggest-with-tags__errorMessage___27TAt {
   color: #ed5565;
   font-size: 12px;
   font-weight: normal; }

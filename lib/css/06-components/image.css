@@ -1,3 +1,5 @@
+/*  imported from image.scss  */
+
 /* ==========================================================================
   Variables
   ========================================================================== */
@@ -8,33 +10,33 @@
  ========================================================================== */
 figure {
   text-align: left; }
-  figure.image__center___m1flg {
+  figure.image__center___1yjLj {
     text-align: center; }
-  figure.image__right___e_xKJ {
+  figure.image__right___29Ua9 {
     text-align: right; }
 
 img {
   vertical-align: middle; }
 
-.image__small___2JYDt {
+.image__small___1HKbP {
   height: 32px;
   width: 32px; }
 
-.image__medium___oTU_q {
+.image__medium___2EeTj {
   height: 64px;
   width: 64px; }
 
-.image__large___3j0yG {
+.image__large___1_QzK {
   height: 96px;
   width: 96px; }
 
-.image__circle___3V8oJ {
+.image__circle___2mL2p {
   border-radius: 50%; }
 
-.image__rounded___2b4U6 {
+.image__rounded___2pL0z {
   border-radius: 6px; }
 
-.image__thumbnail___2YqBV {
+.image__thumbnail___3mbpt {
   border: 1px solid #ddd;
   border-radius: 4px;
   line-height: 1.42857143;

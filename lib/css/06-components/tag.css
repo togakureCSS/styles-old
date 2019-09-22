@@ -1,3 +1,5 @@
+/*  imported from tag.scss  */
+
 /* ==========================================================================
    Variables
    ========================================================================== */
@@ -6,7 +8,7 @@
 /* ==========================================================================
    Tag Component
    ========================================================================== */
-.tag__tag___GOl8v {
+.tag__tag___2iK57 {
   background-color: #1ab394;
   border-radius: 0.25em;
   color: #fff;
@@ -20,14 +22,14 @@
   vertical-align: baseline;
   white-space: nowrap; }
 
-.tag__tag-close___35AzI {
+.tag__tag-close___3cGKN {
   margin-left: 10px; }
-  .tag__tag-close___35AzI [class*="button"] {
+  .tag__tag-close___3cGKN [class*="button"] {
     background: none;
     border: 0;
     font-size: 14px;
     line-height: 1;
     outline: none;
     padding: 0; }
-  .tag__tag-close___35AzI svg path {
+  .tag__tag-close___3cGKN svg path {
     fill: #fff; }

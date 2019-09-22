@@ -1,27 +1,29 @@
+/*  imported from breadcrumb.scss  */
+
 /* ==========================================================================
    Variables
    ========================================================================== */
 /* ==========================================================================
    breadcrumb
    ========================================================================== */
-.breadcrumb__breadcrumb-list___33l7e {
+.breadcrumb__breadcrumb-list___1Mepe {
   margin-bottom: 0;
   padding: 0; }
 
-.breadcrumb__breadcrumb-item___2XrxO {
+.breadcrumb__breadcrumb-item___1HluP {
   display: inline-block; }
-  .breadcrumb__breadcrumb-item___2XrxO:before {
+  .breadcrumb__breadcrumb-item___1HluP:before {
     color: #ccc;
     content: "/\A0";
     padding: 0 5px; }
-  .breadcrumb__breadcrumb-item___2XrxO:first-child:before {
+  .breadcrumb__breadcrumb-item___1HluP:first-child:before {
     content: "";
     padding: 0; }
 
-.breadcrumb__breadcrumb-link___38iXe {
+.breadcrumb__breadcrumb-link___faoZp {
   color: #676a6c;
   cursor: pointer;
   text-decoration: none; }
 
-.breadcrumb__breadcrumb-text___2ivOV {
+.breadcrumb__breadcrumb-text___2igeG {
   color: #333; }

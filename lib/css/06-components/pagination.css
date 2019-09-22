@@ -1,3 +1,5 @@
+/*  imported from pagination.scss  */
+
 /* ==========================================================================
    Variables
    ========================================================================== */
@@ -8,18 +10,18 @@
 /* ==========================================================================
   Pagination Component
   ========================================================================== */
-.pagination__pagination___In2d6 {
+.pagination__pagination___2WO-n {
   border-radius: 4px;
   display: inline-block;
   padding-left: 0; }
-  .pagination__pagination___In2d6:before, .pagination__pagination___In2d6:after {
+  .pagination__pagination___2WO-n:before, .pagination__pagination___2WO-n:after {
     content: " ";
     display: table; }
-  .pagination__pagination___In2d6:after {
+  .pagination__pagination___2WO-n:after {
     clear: both; }
 
-.pagination__pagination-link___2A3IM,
-.pagination__pagination-text___2jQqv {
+.pagination__pagination-link___16vcU,
+.pagination__pagination-text___3RN2W {
   background-color: #fff;
   border: 1px solid #ddd;
   color: #676a6c;
@@ -30,31 +32,31 @@
   position: relative;
   text-decoration: none; }
 
-.pagination__active___oeeHX .pagination__pagination-link___2A3IM, .pagination__active___oeeHX .pagination__pagination-link___2A3IM:hover, .pagination__active___oeeHX .pagination__pagination-link___2A3IM:focus {
+.pagination__active___1D5tc .pagination__pagination-link___16vcU, .pagination__active___1D5tc .pagination__pagination-link___16vcU:hover, .pagination__active___1D5tc .pagination__pagination-link___16vcU:focus {
   background-color: #bfbfbf;
   border-color: #ddd;
   color: #676a6c;
   cursor: default;
   z-index: 2; }
 
-.pagination__active___oeeHX .pagination__pagination-text___2jQqv, .pagination__active___oeeHX .pagination__pagination-text___2jQqv:hover, .pagination__active___oeeHX .pagination__pagination-text___2jQqv:focus {
+.pagination__active___1D5tc .pagination__pagination-text___3RN2W, .pagination__active___1D5tc .pagination__pagination-text___3RN2W:hover, .pagination__active___1D5tc .pagination__pagination-text___3RN2W:focus {
   background-color: #bfbfbf;
   border-color: #ddd;
   color: #676a6c;
   cursor: default;
   z-index: 2; }
 
-.pagination__disabled___3uJn8 .pagination__pagination-link___2A3IM {
+.pagination__disabled___1KkES .pagination__pagination-link___16vcU {
   cursor: not-allowed; }
 
-.pagination__pagination-item___3IY6w {
+.pagination__pagination-item___3sXsg {
   display: inline-block; }
-  .pagination__pagination-item___3IY6w:first-child > .pagination__pagination-link___2A3IM,
-  .pagination__pagination-item___3IY6w:first-child > .pagination__pagination-text___2jQqv {
+  .pagination__pagination-item___3sXsg:first-child > .pagination__pagination-link___16vcU,
+  .pagination__pagination-item___3sXsg:first-child > .pagination__pagination-text___3RN2W {
     border-bottom-left-radius: 4px;
     border-top-left-radius: 4px;
     margin-left: 0; }
-  .pagination__pagination-item___3IY6w:last-child > .pagination__pagination-link___2A3IM,
-  .pagination__pagination-item___3IY6w:last-child > .pagination__pagination-text___2jQqv {
+  .pagination__pagination-item___3sXsg:last-child > .pagination__pagination-link___16vcU,
+  .pagination__pagination-item___3sXsg:last-child > .pagination__pagination-text___3RN2W {
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px; }

@@ -1,46 +1,48 @@
+/*  imported from panel.scss  */
+
 /* ==========================================================================
 Colors
 ========================================================================== */
 /* ==========================================================================
 Panel
 ========================================================================== */
-.panel__panel___2qy97 {
+.panel__panel___1CBch {
   margin-bottom: 25px; }
-  .panel__panel___2qy97:before, .panel__panel___2qy97:after {
+  .panel__panel___1CBch:before, .panel__panel___1CBch:after {
     content: " ";
     display: table; }
-  .panel__panel___2qy97:after {
+  .panel__panel___1CBch:after {
     clear: both; }
 
-.panel__panel-header___2l3QI {
+.panel__panel-header___ufqHs {
   background: #fff;
   margin-bottom: 0;
   min-height: 48px;
   padding: 15px 15px 7px; }
 
-.panel__panel-content___29laP {
+.panel__panel-content___3riAv {
   background-color: #fff;
   border-top: 1px solid #e7eaec;
   padding: 15px 20px 20px;
   width: auto; }
-  .panel__panel-content___29laP:before, .panel__panel-content___29laP:after {
+  .panel__panel-content___3riAv:before, .panel__panel-content___3riAv:after {
     content: " ";
     display: table; }
-  .panel__panel-content___29laP:after {
+  .panel__panel-content___3riAv:after {
     clear: both; }
 
-.panel__panel-content--scroll___2YSdp {
+.panel__panel-content--scroll___jLYli {
   max-height: 200px;
   overflow: auto; }
 
-.panel__panel-footer___3sEmO {
+.panel__panel-footer___2y7b2 {
   background: #fff;
   border-top: 1px solid #e7eaec;
   font-size: 12px;
   padding: 10px 15px; }
 
-.panel__panel-footer-info___1kzui {
+.panel__panel-footer-info___2RDEf {
   font-size: 12px; }
 
-.panel__panel-footer-addon___3ZX9D {
+.panel__panel-footer-addon___11VUj {
   float: right; }

@@ -1,3 +1,5 @@
+/*  imported from form-label.scss  */
+
 /* ==========================================================================
   Variables
   ========================================================================== */
@@ -6,7 +8,7 @@
 /* ==========================================================================
    Form Label Component
    ========================================================================== */
-.form-label__label___2q2rW {
+.form-label__label___1-kqe {
   color: #333;
   display: inline-block;
   font-size: 13px;
@@ -15,5 +17,5 @@
   max-width: 100%;
   width: 100%; }
 
-.form-label__label-addon___47xMI {
+.form-label__label-addon___34_De {
   float: right; }

@@ -1,3 +1,5 @@
+/*  imported from placeholder.scss  */
+
 /* ==========================================================================
    Variables
    ========================================================================== */
@@ -6,7 +8,7 @@
 /* ==========================================================================
    Animations
    ========================================================================== */
-@keyframes placeholder__placeHolderShimmer___1jpfu {
+@keyframes placeholder__placeHolderShimmer___kPog0 {
   from {
     background-position: -468px 0; }
   to {
@@ -15,11 +17,11 @@
 /* ==========================================================================
    Placeholders
    ========================================================================== */
-.placeholder__text___R9aQN, .placeholder__rect___wb_az, .placeholder__round___xPa8L {
+.placeholder__text___2ywGN, .placeholder__rect___27vdj, .placeholder__round___1vSID {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
-  animation-name: placeholder__placeHolderShimmer___1jpfu;
+  animation-name: placeholder__placeHolderShimmer___kPog0;
   animation-timing-function: linear;
   background: #f6f7f8;
   background: linear-gradient(to right, #eee 8%, #f6f7f8 18%, #eee 33%);
@@ -28,29 +30,29 @@
 /* ==========================================================================
    Placeholder Component
    ========================================================================== */
-.placeholder__text___R9aQN {
+.placeholder__text___2ywGN {
   height: 1em;
   position: relative;
   width: 100%; }
 
-.placeholder__rect___wb_az {
+.placeholder__rect___27vdj {
   height: 100%;
   margin-right: 10px;
   width: 100%; }
 
-.placeholder__round___xPa8L {
+.placeholder__round___1vSID {
   border-Radius: 50%;
   height: 100%;
   width: 100%; }
 
-.placeholder__media___3uT0H {
+.placeholder__media___24vrN {
   display: flex; }
 
-.placeholder__media-round___226ep {
+.placeholder__media-round___2aHFo {
   min-height: 55px;
   min-width: 55px;
   margin-right: 10px;
   width: 55px; }
 
-.placeholder__textBlock___1VEAr {
+.placeholder__textBlock___32yzT {
   width: 100%; }

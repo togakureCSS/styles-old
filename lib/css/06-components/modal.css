@@ -1,3 +1,5 @@
+/*  imported from modal.scss  */
+
 /* ==========================================================================
    Variables
    ========================================================================== */
@@ -6,15 +8,15 @@
 /* ==========================================================================
    Modal Component
    ========================================================================== */
-@keyframes modal__show___2KVe2 {
+@keyframes modal__show___KxJdM {
   from {
     opacity: 0; }
   to {
     opacity: 1; } }
 
-.modal__overlay___3VLxB {
+.modal__overlay___cv3lf {
   animation-duration: 0.3s;
-  animation-name: modal__show___2KVe2;
+  animation-name: modal__show___KxJdM;
   background-color: rgba(0, 0, 0, 0.3);
   bottom: 0;
   left: 0;
@@ -26,7 +28,7 @@
   transition: opacity 0.3s linear;
   z-index: 9999; }
 
-.modal__content___1PiYS {
+.modal__content___2riaM {
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -39,17 +41,17 @@
   transition: all 0.3s linear;
   width: 60%; }
 
-.modal__header___FUGSy {
+.modal__header___2HUyy {
   border-bottom: 1px solid #e5e5e5;
   padding: 15px;
   position: relative;
   text-align: left; }
-  .modal__header___FUGSy:before, .modal__header___FUGSy:after {
+  .modal__header___2HUyy:before, .modal__header___2HUyy:after {
     content: " ";
     display: table; }
-  .modal__header___FUGSy:after {
+  .modal__header___2HUyy:after {
     clear: both; }
-  .modal__header___FUGSy [class*="button"] {
+  .modal__header___2HUyy [class*="button"] {
     background: none;
     border: 0;
     outline: none;
@@ -57,20 +59,20 @@
     right: 10px;
     top: 10px; }
 
-.modal__header-title___2nGxG {
+.modal__header-title___2wdoz {
   color: #676a6c;
   margin-right: 40px; }
 
-.modal__body___35-kL {
+.modal__body___3DLec {
   padding: 20px 30px 30px;
   text-align: left; }
 
-.modal__footer___3w1wO {
+.modal__footer___usQT0 {
   border-top: 1px solid #e5e5e5;
   padding: 15px;
   text-align: right;
   width: 100%; }
-  .modal__footer___3w1wO [class*="button"] {
+  .modal__footer___usQT0 [class*="button"] {
     margin-left: 10px; }
 
 /* ==========================================================================
@@ -78,7 +80,7 @@
    ========================================================================== */
 /* scaleUp
 ========================================================================== */
-@keyframes modal__scaleUp___17mvn {
+@keyframes modal__scaleUp___1yOfR {
   from {
     opacity: 0;
     transform: scale(0.7); }
@@ -86,13 +88,13 @@
     opacity: 1;
     transform: scale(1); } }
 
-.modal__scaleUp___17mvn {
+.modal__scaleUp___1yOfR {
   animation-duration: 0.3s;
-  animation-name: modal__scaleUp___17mvn; }
+  animation-name: modal__scaleUp___1yOfR; }
 
 /* slideFromRight
 ========================================================================== */
-@keyframes modal__slideFromRight___ca4uy {
+@keyframes modal__slideFromRight___3r1BO {
   from {
     opacity: 0;
     transform: translateX(35%); }
@@ -100,14 +102,14 @@
     opacity: 1;
     transform: translateX(0); } }
 
-.modal__slideFromRight___ca4uy {
+.modal__slideFromRight___3r1BO {
   animation-duration: 0.3s;
-  animation-name: modal__slideFromRight___ca4uy;
+  animation-name: modal__slideFromRight___3r1BO;
   transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9); }
 
 /* slideFromBottom
 ========================================================================== */
-@keyframes modal__slideFromBottom___bw-an {
+@keyframes modal__slideFromBottom___3BOQq {
   from {
     opacity: 0;
     transform: translateY(35%); }
@@ -115,13 +117,13 @@
     opacity: 1;
     transform: translateY(0); } }
 
-.modal__slideFromBottom___bw-an {
+.modal__slideFromBottom___3BOQq {
   animation-duration: 0.3s;
-  animation-name: modal__slideFromBottom___bw-an; }
+  animation-name: modal__slideFromBottom___3BOQq; }
 
 /* newspaper
 ========================================================================== */
-@keyframes modal__newspaper___1YQI6 {
+@keyframes modal__newspaper___2ln2g {
   from {
     opacity: 0;
     transform: scale(0) rotate(720deg); }
@@ -129,14 +131,14 @@
     opacity: 1;
     transform: scale(1) rotate(0deg); } }
 
-.modal__newspaper___1YQI6 {
+.modal__newspaper___2ln2g {
   animation-duration: 0.3s;
-  animation-name: modal__newspaper___1YQI6;
+  animation-name: modal__newspaper___2ln2g;
   transition: all 0.5s linear; }
 
 /* fall
 ========================================================================== */
-@keyframes modal__slideFromBottom___bw-an {
+@keyframes modal__slideFromBottom___3BOQq {
   from {
     opacity: 0;
     transform: translateZ(600px) rotateX(20deg);
@@ -146,14 +148,14 @@
     transform: translateZ(0) rotateX(0deg);
     transform-style: preserve-ThreeD; } }
 
-.modal__fall___5qc1f {
+.modal__fall___3TEk5 {
   animation-duration: 0.3s;
-  animation-name: modal__slideFromBottom___bw-an;
+  animation-name: modal__slideFromBottom___3BOQq;
   transition: all 0.3s ease-in; }
 
 /* sideFall
 ========================================================================== */
-@keyframes modal__sideFall___2OY8P {
+@keyframes modal__sideFall___1Fpt0 {
   from {
     opacity: 0;
     transform: translate(30%) translateZ(600px) rotate(10deg);
@@ -163,13 +165,13 @@
     transform: translate(0%) translateZ(0) rotate(0deg);
     transform-style: preserve-ThreeD; } }
 
-.modal__sideFall___2OY8P {
+.modal__sideFall___1Fpt0 {
   animation-duration: 0.3s;
-  animation-name: modal__sideFall___2OY8P; }
+  animation-name: modal__sideFall___1Fpt0; }
 
 /* flipHorizontalThreeD
 ========================================================================== */
-@keyframes modal__flipHorizontalThreeD___Sg58Z {
+@keyframes modal__flipHorizontalThreeD___34RlS {
   from {
     opacity: 0;
     transform: rotateY(-70deg);
@@ -179,13 +181,13 @@
     transform: rotateY(0deg);
     transform-style: preserve-ThreeD; } }
 
-.modal__flipHorizontalThreeD___Sg58Z {
+.modal__flipHorizontalThreeD___34RlS {
   animation-duration: 0.3s;
-  animation-name: modal__flipHorizontalThreeD___Sg58Z; }
+  animation-name: modal__flipHorizontalThreeD___34RlS; }
 
 /* flipVerticalThreeD
 ========================================================================== */
-@keyframes modal__flipVerticalThreeD___xGGCt {
+@keyframes modal__flipVerticalThreeD___1cNha {
   from {
     opacity: 0;
     transform: rotateX(-70deg);
@@ -195,13 +197,13 @@
     transform: rotateX(0deg);
     transform-style: preserve-ThreeD; } }
 
-.modal__flipVerticalThreeD___xGGCt {
+.modal__flipVerticalThreeD___1cNha {
   animation-duration: 0.3s;
-  animation-name: modal__flipVerticalThreeD___xGGCt; }
+  animation-name: modal__flipVerticalThreeD___1cNha; }
 
 /* signThreeD
 ========================================================================== */
-@keyframes modal__signThreeD___1OkXe {
+@keyframes modal__signThreeD___1xURN {
   from {
     opacity: 0;
     transform: rotateX(-60deg);
@@ -213,13 +215,13 @@
     transform-origin: 50% 0;
     transform-style: preserve-ThreeD; } }
 
-.modal__signThreeD___1OkXe {
+.modal__signThreeD___1xURN {
   animation-duration: 0.3s;
-  animation-name: modal__signThreeD___1OkXe; }
+  animation-name: modal__signThreeD___1xURN; }
 
 /* superScaled
 ========================================================================== */
-@keyframes modal__superScaled___3HmSQ {
+@keyframes modal__superScaled___LA5NP {
   from {
     opacity: 0;
     transform: scale(2); }
@@ -227,13 +229,13 @@
     opacity: 1;
     transform: scale(1); } }
 
-.modal__superScaled___3HmSQ {
+.modal__superScaled___LA5NP {
   animation-duration: 0.3s;
-  animation-name: modal__superScaled___3HmSQ; }
+  animation-name: modal__superScaled___LA5NP; }
 
 /* rotateFromBottomThreeD
 ========================================================================== */
-@keyframes modal__rotateFromBottomThreeD___35OvK {
+@keyframes modal__rotateFromBottomThreeD___3-tcG {
   from {
     opacity: 0;
     transform: translateY(100%) rotateX(90deg);
@@ -245,14 +247,14 @@
     transform-origin: 0 100%;
     transform-style: preserve-ThreeD; } }
 
-.modal__rotateFromBottomThreeD___35OvK {
+.modal__rotateFromBottomThreeD___3-tcG {
   animation-duration: 0.3s;
-  animation-name: modal__rotateFromBottomThreeD___35OvK;
+  animation-name: modal__rotateFromBottomThreeD___3-tcG;
   transition: all 0.3s ease-out; }
 
 /* rotateFromLeftThreeD
 ========================================================================== */
-@keyframes modal__rotateFromLeftThreeD___3GtKa {
+@keyframes modal__rotateFromLeftThreeD___3Er0F {
   from {
     opacity: 0;
     transform: translateZ(100px) translateX(-30%) rotateY(90deg);
@@ -264,6 +266,6 @@
     transform-origin: 0 100%;
     transform-style: preserve-ThreeD; } }
 
-.modal__rotateFromLeftThreeD___3GtKa {
+.modal__rotateFromLeftThreeD___3Er0F {
   animation-duration: 0.3s;
-  animation-name: modal__rotateFromLeftThreeD___3GtKa; }
+  animation-name: modal__rotateFromLeftThreeD___3Er0F; }

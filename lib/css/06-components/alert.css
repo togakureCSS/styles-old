@@ -1,10 +1,12 @@
+/*  imported from alert.scss  */
+
 /* ==========================================================================
    Variables
    ========================================================================== */
 /* ==========================================================================
    Placeholders
    ========================================================================== */
-.alert__success___3Gwft, .alert__info___1zGnr, .alert__warning___2Ns6m, .alert__danger___qhUoU, .alert__alert--dark___2BPZQ.alert__success___3Gwft, .alert__alert--dark___2BPZQ.alert__info___1zGnr, .alert__alert--dark___2BPZQ.alert__warning___2Ns6m, .alert__alert--dark___2BPZQ.alert__danger___qhUoU {
+.alert__success___GEFRY, .alert__info___4NH7z, .alert__warning___2Q8Va, .alert__danger___1Zi7I, .alert__alert--dark___2hwsO.alert__success___GEFRY, .alert__alert--dark___2hwsO.alert__info___4NH7z, .alert__alert--dark___2hwsO.alert__warning___2Q8Va, .alert__alert--dark___2hwsO.alert__danger___1Zi7I {
   border-radius: 4px;
   margin-bottom: 6px;
   position: relative;
@@ -13,85 +15,85 @@
 /* ==========================================================================
    Patterns of messages (normal)
    ========================================================================== */
-.alert__success___3Gwft {
+.alert__success___GEFRY {
   background-color: #dff0d8;
   border-color: #d6e9c6;
   color: #3c763d; }
-  .alert__success___3Gwft svg path {
+  .alert__success___GEFRY svg path {
     fill: #3c763d; }
 
-.alert__info___1zGnr {
+.alert__info___4NH7z {
   background-color: #d9edf7;
   border-color: #bce8f1;
   color: #31708f; }
-  .alert__info___1zGnr svg path {
+  .alert__info___4NH7z svg path {
     fill: #31708f; }
 
-.alert__warning___2Ns6m {
+.alert__warning___2Q8Va {
   background-color: #fcf8e3;
   border-color: #faebcc;
   color: #8a6d3b; }
-  .alert__warning___2Ns6m svg path {
+  .alert__warning___2Q8Va svg path {
     fill: #8a6d3b; }
 
-.alert__danger___qhUoU {
+.alert__danger___1Zi7I {
   background-color: #f2dede;
   border-color: #ebccd1;
   color: #a94442; }
-  .alert__danger___qhUoU svg path {
+  .alert__danger___1Zi7I svg path {
     fill: #a94442; }
 
 /* ==========================================================================
    Patterns of messages (dark)
    ========================================================================== */
-.alert__alert--dark___2BPZQ.alert__success___3Gwft {
+.alert__alert--dark___2hwsO.alert__success___GEFRY {
   background-color: #51a351;
   border-color: #51a351;
   color: #fff; }
-  .alert__alert--dark___2BPZQ.alert__success___3Gwft svg path {
+  .alert__alert--dark___2hwsO.alert__success___GEFRY svg path {
     fill: #fff; }
 
-.alert__alert--dark___2BPZQ.alert__info___1zGnr {
+.alert__alert--dark___2hwsO.alert__info___4NH7z {
   background-color: #2f96b4;
   border-color: #2f96b4;
   color: #fff; }
-  .alert__alert--dark___2BPZQ.alert__info___1zGnr svg path {
+  .alert__alert--dark___2hwsO.alert__info___4NH7z svg path {
     fill: #fff; }
 
-.alert__alert--dark___2BPZQ.alert__warning___2Ns6m {
+.alert__alert--dark___2hwsO.alert__warning___2Q8Va {
   background-color: #f89406;
   border-color: #f89406;
   color: #fff; }
-  .alert__alert--dark___2BPZQ.alert__warning___2Ns6m svg path {
+  .alert__alert--dark___2hwsO.alert__warning___2Q8Va svg path {
     fill: #fff; }
 
-.alert__alert--dark___2BPZQ.alert__danger___qhUoU {
+.alert__alert--dark___2hwsO.alert__danger___1Zi7I {
   background-color: #bd362f;
   border-color: #bd362f;
   color: #fff; }
-  .alert__alert--dark___2BPZQ.alert__danger___qhUoU svg path {
+  .alert__alert--dark___2hwsO.alert__danger___1Zi7I svg path {
     fill: #fff; }
 
 /* ==========================================================================
    Alert component
    ========================================================================== */
-.alert__headline___27GNy {
+.alert__headline___3rgj4 {
   margin: 0;
   margin-bottom: 6px; }
 
-.alert__body___PcGHm {
+.alert__body___3AKqH {
   max-width: 40em; }
-  .alert__body___PcGHm p {
+  .alert__body___3AKqH p {
     margin: 0; }
 
-.alert__msgContainer___ICNm9 {
+.alert__msgContainer___Oi6PH {
   display: inline-block;
   padding: 10px; }
 
-.alert__alert--icon___1VaoA .alert__msgContainer___ICNm9 {
+.alert__alert--icon___37F7b .alert__msgContainer___Oi6PH {
   padding-left: 50px; }
 
-.alert__close___wZHmT {
+.alert__close___qtVE1 {
   color: #000;
   float: right;
   font-size: 21px;
@@ -103,7 +105,7 @@
   padding: 0;
   text-shadow: 0 1px 0 #fff; }
 
-.alert__icon___3haPv {
+.alert__icon___3adfq {
   float: left;
   font-size: 18px;
   left: 10px;

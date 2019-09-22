@@ -1,3 +1,5 @@
+/*  imported from form-control.scss  */
+
 /* ==========================================================================
   Variables
   ========================================================================== */
@@ -12,26 +14,26 @@
   ========================================================================== */
 /* Field (text || select || textarea )
 ========================================================================== */
-.form-control__form-field___24eac, .form-control__form-field--select___1HSA7, .form-control__form-field--textarea___3UL9q {
+.form-control__form-field___16WDC, .form-control__form-field--select___pdGSS, .form-control__form-field--textarea___19D3f {
   border: 1px solid #ccc;
   display: block;
   height: 40px;
   outline: none;
   padding: 10px;
   width: 100%; }
-  .form-control__form-field___24eac:disabled, .form-control__form-field--select___1HSA7:disabled, .form-control__form-field--textarea___3UL9q:disabled {
+  .form-control__form-field___16WDC:disabled, .form-control__form-field--select___pdGSS:disabled, .form-control__form-field--textarea___19D3f:disabled {
     background: #ccc;
     color: #999; }
 
 /* Radio and checkbox
 ========================================================================== */
-.form-control__form-field--radio___3mRCV, .form-control__form-field--checkbox___ESQrE {
+.form-control__form-field--radio___2yRCZ, .form-control__form-field--checkbox___2hfm0 {
   margin: 4px 0 0;
   width: auto; }
 
 /* addon
 ========================================================================== */
-.form-control__form-addon-before___1TOvr, .form-control__form-addon-after___3aQtg {
+.form-control__form-addon-before___dyqOG, .form-control__form-addon-after___2Adia {
   background: #ececec;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -51,45 +53,45 @@
    ========================================================================== */
 /* Form field
    ========================================================================== */
-.form-control__form-field___24eac {
+.form-control__form-field___16WDC {
   color: #333; }
 
-.form-control__form-field--select___1HSA7 {
+.form-control__form-field--select___pdGSS {
   background: #fff; }
 
-.form-control__form-field--radio___3mRCV {
+.form-control__form-field--radio___2yRCZ {
   background: #fff; }
 
-.form-control__form-field--checkbox___ESQrE {
+.form-control__form-field--checkbox___2hfm0 {
   background: #fff; }
 
-.form-control__form-field--textarea___3UL9q {
+.form-control__form-field--textarea___19D3f {
   height: 200px; }
 
 /* Form addon
    ========================================================================== */
-.form-control__form-addon___ReMSF {
+.form-control__form-addon___2qC5T {
   background: none; }
 
-.form-control__form-addon--withItens___2HD9N {
+.form-control__form-addon--withItens___tOc-s {
   border-collapse: separate;
   display: table;
   position: relative;
   width: 100%; }
 
-.form-control__form-addon-before___1TOvr {
+.form-control__form-addon-before___dyqOG {
   border-bottom-right-radius: 0;
   border-right: 0;
   border-top-right-radius: 0; }
 
-.form-control__form-addon-after___3aQtg {
+.form-control__form-addon-after___2Adia {
   border-bottom-left-radius: 0;
   border-left: 0;
   border-top-left-radius: 0; }
 
 /* Feedback
    ========================================================================== */
-.form-control__form-feedback___2_koJ {
+.form-control__form-feedback___1LKZw {
   display: block;
   height: 34px;
   line-height: 34px;

@@ -1,37 +1,39 @@
+/*  imported from choice-box.scss  */
+
 /* ==========================================================================
    ChoiceBox Component
    ========================================================================== */
-.choice-box__choiceBox___1LYbR,
-.choice-box__choiceBox-title___2X7zw {
+.choice-box__choiceBox___3vfsa,
+.choice-box__choiceBox-title___cAs6B {
   outline: none; }
 
-.choice-box__choiceBox-description___2mSRI {
+.choice-box__choiceBox-description___3CBgC {
   font-size: 12px;
   line-height: 1.2;
   margin-bottom: 5px; }
 
-.choice-box__choiceBox-formControl___22Wba {
+.choice-box__choiceBox-formControl___OxDOx {
   margin-bottom: 10px; }
 
-.choice-box__choiceBox-formGroup___3Sx1z {
+.choice-box__choiceBox-formGroup___3e72G {
   margin: 0; }
 
-.choice-box__choiceBox-formGroup-button___lAi-W {
+.choice-box__choiceBox-formGroup-button___1JkPq {
   float: right; }
 
-.choice-box__choiceBox-list___2oyEX {
+.choice-box__choiceBox-list___31YmJ {
   max-height: 250px;
   overflow: auto; }
-  .choice-box__choiceBox-list___2oyEX [class*="label"],
-  .choice-box__choiceBox-list___2oyEX [class*="form-control"] {
+  .choice-box__choiceBox-list___31YmJ [class*="label"],
+  .choice-box__choiceBox-list___31YmJ [class*="form-control"] {
     margin-top: 5px; }
 
-.choice-box__choiceBox-itemWithButton___16zaW {
+.choice-box__choiceBox-itemWithButton___1Fju9 {
   position: relative; }
-  .choice-box__choiceBox-itemWithButton___16zaW .choice-box__choiceBox-formControl___22Wba {
+  .choice-box__choiceBox-itemWithButton___1Fju9 .choice-box__choiceBox-formControl___OxDOx {
     padding-right: 52px; }
 
-.choice-box__choiceBox-itemWithButton-button___3L9py {
+.choice-box__choiceBox-itemWithButton-button___2XWzE {
   border-radius: 0;
   height: 40px;
   position: absolute;
@@ -39,19 +41,19 @@
   top: 0;
   width: 52px; }
 
-.choice-box__choiceBox-tag___3XLIe {
+.choice-box__choiceBox-tag___3D0q2 {
   margin-bottom: 5px;
   margin-right: 10px; }
 
-.choice-box__actived___2VXcg {
+.choice-box__actived___NeeFy {
   background: #e0f3ef; }
-  .choice-box__actived___2VXcg [class*="button"] {
+  .choice-box__actived___NeeFy [class*="button"] {
     background: #e0f3ef;
     border-color: #e0f3ef; }
-  .choice-box__actived___2VXcg path {
+  .choice-box__actived___NeeFy path {
     background: #15947a; }
 
-.choice-box__errorMessage___1KHrw {
+.choice-box__errorMessage___1tvUK {
   color: #ed5565;
   font-size: 12px;
   font-weight: normal; }

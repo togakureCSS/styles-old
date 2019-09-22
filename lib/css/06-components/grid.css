@@ -1,14 +1,16 @@
+/*  imported from grid.scss  */
+
 /* ==========================================================================
    Grid Component
    ========================================================================== */
-.grid__container-fluid___1_spb,
-.grid__container___1WGan {
+.grid__container-fluid___3upr7,
+.grid__container___2es3n {
   margin-left: auto;
   margin-right: auto; }
 
-.grid__container-fluid___1_spb {
+.grid__container-fluid___3upr7 {
   padding-left: 1rem;
   padding-right: 1rem; }
 
-.grid__container___1WGan {
+.grid__container___2es3n {
   max-width: 100%; }
