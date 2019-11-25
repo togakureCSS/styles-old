@@ -26,7 +26,8 @@ import PlaceholderStyle from './scss/06-components/placeholder.scss';
 import ProgressBarStyle from './scss/06-components/progress-bar.scss';
 import SelectWithTagsStyle from './scss/06-components/select-with-tags.scss';
 import SuggestionsStyle from './scss/06-components/suggestions.scss';
-import TagStylefrom from './scss/06-components/tag.scss';
+import TagStyle from './scss/06-components/tag.scss';
+import TooltipStyle from './scss/06-components/tooltip.scss';
 import TransferStyle from './scss/06-components/transfer.scss';
 
 const styles = {
@@ -58,7 +59,8 @@ const styles = {
   progressBar: ProgressBarStyle,
   selectWithTags: SelectWithTagsStyle,
   suggestions: SuggestionsStyle,
-  tag: TagStylefrom,
+  tag: TagStyle,
+  tooltip: TooltipStyle,
   transfer: TransferStyle
 };
 
