@@ -1,25 +1,27 @@
+@import "../config";
+
 .no-display { display: none; }
 
-.tooltip-container {
-  transform: translateZ(0);
-  position: absolute;
-  max-width: 200px;
-  padding: 8px 10px 10px;
-  font-size: 1.6rem;
+.tooltip {
+  @include x-prefix(animation, tooltip 0.8s);
+
   background-color: #2d2d2d;
-  color: #fff;
   border-radius: 4px;
+  color: #fff;
+  font-size: 1.6rem;
+  max-width: 200px;
   opacity: 1;
+  padding: 8px 10px 10px;
+  position: absolute;
+  transform: translateZ(0);
 
-  &[class*=" tooltip-"] { @include x-prefix(animation, tooltip 0.8s); }
-
-  &::after {
+  &:after {
     position: absolute;
     display: block;
     content: "";
   }
 
-  &.tooltip-left::after {
+  &--left:after {
     right: -8px;
     top: 50%;
     transform: translateY(-50%);
@@ -30,7 +32,7 @@
     }
   }
 
-  &.tooltip-right::after {
+  &--right:after {
     left: -8px;
     top: 50%;
     transform: translateY(-50%);
@@ -41,7 +43,7 @@
     }
   }
 
-  &.tooltip-center::after {
+  &--center:after {
     top: -8px;
     left: 50%;
     transform: translateX(-50%);
@@ -51,12 +53,6 @@
       color: transparent transparent #2d2d2d transparent;
     }
   }
-}
-
-[data-tooltip] {
-  cursor: pointer;
-  color: #7cb342;
-  display: inline-block;
 }
 
 @include x-keyframes(tooltip) {

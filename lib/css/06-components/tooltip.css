@@ -1,0 +1,110 @@
+/*  imported from tooltip.scss  */
+
+.tooltip__no-display___19MpF {
+  display: none; }
+
+.tooltip__tooltip___1_3hX {
+  -webkit-animation: tooltip__tooltip___1_3hX 0.8s;
+  -moz-animation: tooltip__tooltip___1_3hX 0.8s;
+  -o-animation: tooltip__tooltip___1_3hX 0.8s;
+  -ms-animation: tooltip__tooltip___1_3hX 0.8s;
+  animation: tooltip__tooltip___1_3hX 0.8s;
+  background-color: #2d2d2d;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.6rem;
+  max-width: 200px;
+  opacity: 1;
+  padding: 8px 10px 10px;
+  position: absolute;
+  transform: translateZ(0); }
+  .tooltip__tooltip___1_3hX:after {
+    position: absolute;
+    display: block;
+    content: ""; }
+  .tooltip__tooltip--left___26yQ8:after {
+    right: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-style: solid;
+    border-width: 6px 0 6px 8px;
+    border-color: transparent transparent transparent #2d2d2d; }
+  .tooltip__tooltip--right___xGbIY:after {
+    left: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-style: solid;
+    border-width: 6px 8px 6px 0;
+    border-color: transparent #2d2d2d transparent transparent; }
+  .tooltip__tooltip--center___1-fGa:after {
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-style: solid;
+    border-width: 0 6px 8px 6px;
+    border-color: transparent transparent #2d2d2d transparent; }
+
+@-webkit-keyframes tooltip__tooltip___1_3hX {
+  0% {
+    opacity: 0;
+    transform: matrix(0.5, 0, 0, 0.8, 0, 0); }
+  20% {
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0); }
+  40% {
+    opacity: 1; }
+  70% {
+    transform: matrix(1, 0, 0, 1, 0, 0); }
+  100% {
+    transform: matrix(1, 0, 0, 1, 0, 0); } }
+
+@-moz-keyframes tooltip__tooltip___1_3hX {
+  0% {
+    opacity: 0;
+    transform: matrix(0.5, 0, 0, 0.8, 0, 0); }
+  20% {
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0); }
+  40% {
+    opacity: 1; }
+  70% {
+    transform: matrix(1, 0, 0, 1, 0, 0); }
+  100% {
+    transform: matrix(1, 0, 0, 1, 0, 0); } }
+
+@-o-keyframes tooltip__tooltip___1_3hX {
+  0% {
+    opacity: 0;
+    transform: matrix(0.5, 0, 0, 0.8, 0, 0); }
+  20% {
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0); }
+  40% {
+    opacity: 1; }
+  70% {
+    transform: matrix(1, 0, 0, 1, 0, 0); }
+  100% {
+    transform: matrix(1, 0, 0, 1, 0, 0); } }
+
+@-ms-keyframes tooltip__tooltip___1_3hX {
+  0% {
+    opacity: 0;
+    transform: matrix(0.5, 0, 0, 0.8, 0, 0); }
+  20% {
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0); }
+  40% {
+    opacity: 1; }
+  70% {
+    transform: matrix(1, 0, 0, 1, 0, 0); }
+  100% {
+    transform: matrix(1, 0, 0, 1, 0, 0); } }
+
+@keyframes tooltip__tooltip___1_3hX {
+  0% {
+    opacity: 0;
+    transform: matrix(0.5, 0, 0, 0.8, 0, 0); }
+  20% {
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0); }
+  40% {
+    opacity: 1; }
+  70% {
+    transform: matrix(1, 0, 0, 1, 0, 0); }
+  100% {
+    transform: matrix(1, 0, 0, 1, 0, 0); } }
