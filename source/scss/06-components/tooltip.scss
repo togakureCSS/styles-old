@@ -8,7 +8,7 @@
   background-color: #2d2d2d;
   border-radius: 4px;
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   max-width: 200px;
   opacity: 1;
   padding: 8px 10px 10px;
@@ -23,35 +23,48 @@
 
   &--left:after {
     right: -8px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 10px;
     border: {
       style: solid;
       width: 6px 0 6px 8px;
       color: transparent transparent transparent #2d2d2d;
     }
+    transform: translateY(-50%);
   }
 
   &--right:after {
     left: -8px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 10px;
     border: {
       style: solid;
       width: 6px 8px 6px 0;
       color: transparent #2d2d2d transparent transparent;
     }
+    transform: translateY(-50%);
   }
 
-  &--center:after {
+  &--top:after {
+    bottom: -8px;
+    left: 50%;
+    border: {
+      style: solid;
+      width: 8px 6px 0 6px;
+      color: #2d2d2d transparent transparent transparent transparent;
+    }
+    margin-left: -4px;
+    transform: translateX(-50%);
+  }
+
+  &--bottom:after {
     top: -8px;
     left: 50%;
-    transform: translateX(-50%);
     border: {
       style: solid;
       width: 0 6px 8px 6px;
       color: transparent transparent #2d2d2d transparent;
     }
+    margin-left: -4px;
+    transform: translateX(-50%);
   }
 }
 
@@ -60,7 +73,6 @@
     opacity: 0;
     transform: matrix(0.5, 0, 0, 0.8, 0, 0);
   }
-
   20% { transform: matrix(1.1, 0, 0, 1.1, 0, 0); }
   40% { opacity: 1; }
   70% { transform: matrix(1, 0, 0, 1, 0, 0); }
