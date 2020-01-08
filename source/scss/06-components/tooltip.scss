@@ -2,16 +2,15 @@
 
 .no-display { display: none; }
 
+.wrap { position: relative; }
+
 .tooltip {
   @include x-prefix(animation, tooltip 0.8s);
 
   background-color: #2d2d2d;
   border-radius: 4px;
   color: #fff;
-  font-size: 1.4rem;
-  max-width: 200px;
   opacity: 1;
-  padding: 8px 10px 10px;
   position: absolute;
   transform: translateZ(0);
 
@@ -66,6 +65,12 @@
     margin-left: -4px;
     transform: translateX(-50%);
   }
+}
+
+.tooltip-content {
+  font-size: 1.4rem;
+  min-width: 100px;
+  padding: 10px;
 }
 
 @include x-keyframes(tooltip) {

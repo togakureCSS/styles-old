@@ -3,6 +3,9 @@
 .tooltip__no-display___19MpF {
   display: none; }
 
+.tooltip__wrap___f_QV- {
+  position: relative; }
+
 .tooltip__tooltip___1_3hX {
   -webkit-animation: tooltip__tooltip___1_3hX 0.8s;
   -moz-animation: tooltip__tooltip___1_3hX 0.8s;
@@ -12,10 +15,7 @@
   background-color: #2d2d2d;
   border-radius: 4px;
   color: #fff;
-  font-size: 1.4rem;
-  max-width: 200px;
   opacity: 1;
-  padding: 8px 10px 10px;
   position: absolute;
   transform: translateZ(0); }
   .tooltip__tooltip___1_3hX:after {
@@ -52,6 +52,11 @@
     border-color: transparent transparent #2d2d2d transparent;
     margin-left: -4px;
     transform: translateX(-50%); }
+
+.tooltip__tooltip-content___3TR0a {
+  font-size: 1.4rem;
+  min-width: 100px;
+  padding: 10px; }
 
 @-webkit-keyframes tooltip__tooltip___1_3hX {
   0% {
