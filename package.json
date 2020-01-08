@@ -1,6 +1,6 @@
 {
   "name": "@togakure/styles",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Togakure styles",
   "scripts": {
     "build": "yarn build:sass && yarn build:js && yarn build:images",
