@@ -1,24 +1,31 @@
 /* ==========================================================================
-   Variables
-   ========================================================================== */
-$breadcrumb-color: #333;
-$breadcrumb-color-link: #676a6c;
-$breadcrumb-color-separate: #ccc;
-
-/* ==========================================================================
-   breadcrumb
-   ========================================================================== */
+breadcrumb
+========================================================================== */
 .breadcrumb-list {
   margin-bottom: 0;
   padding: 0;
 }
 
+/* ==========================================================================
+Variables
+========================================================================== */
+$breadcrumb-color: #ccc;
+$breadcrumb-color-link: #fff;
+$breadcrumb-color-separate: #fff;
+
+$breadcrumb-dark-color: #333;
+$breadcrumb-dark-color-link: #676a6c;
+$breadcrumb-dark-color-separate: #ccc;
+
+/* ==========================================================================
+Breadcrumb item
+========================================================================== */
 .breadcrumb-item {
   display: inline-block;
 
   &:before {
     color: $breadcrumb-color-separate;
-    content: "/\00a0";
+    content: "\003e";
     padding: 0 5px;
   }
 
@@ -34,9 +41,29 @@ $breadcrumb-color-separate: #ccc;
 .breadcrumb-link {
   color: $breadcrumb-color-link;
   cursor: pointer;
+  font-size: 12px;
   text-decoration: none;
+
+  &:hover { text-decoration: underline; }
 }
 
 .breadcrumb-text {
   color: $breadcrumb-color;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+
+.breadcrumb-item.dark {
+  &:before {
+    color: $breadcrumb-dark-color-separate;
+  }
+
+  .breadcrumb-link {
+    color: $breadcrumb-dark-color-link;
+  }
+
+  .breadcrumb-text {
+    color: $breadcrumb-dark-color;
+  }
 }

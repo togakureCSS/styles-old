@@ -1,20 +1,20 @@
 /*  imported from tag.scss  */
 
 /* ==========================================================================
-   Variables
-   ========================================================================== */
+Variables
+========================================================================== */
 /* Color
 ========================================================================== */
 /* ==========================================================================
-   Tag Component
-   ========================================================================== */
+Tag Component
+========================================================================== */
 .tag__tag___2iK57 {
-  background-color: #1ab394;
-  border-radius: 0.25em;
-  color: #fff;
+  background-color: #fff;
+  border: 1px solid #53565a;
+  border-radius: 4px;
+  color: #53565a;
   display: inline-block;
-  font-size: 10px;
-  font-weight: 600;
+  font-size: 12px;
   line-height: 1.4;
   padding: 3px 8px;
   text-align: center;
@@ -32,4 +32,4 @@
     outline: none;
     padding: 0; }
   .tag__tag-close___3cGKN svg path {
-    fill: #fff; }
+    fill: #53565a; }

@@ -1,29 +1,46 @@
 /*  imported from breadcrumb.scss  */
 
 /* ==========================================================================
-   Variables
-   ========================================================================== */
-/* ==========================================================================
-   breadcrumb
-   ========================================================================== */
+breadcrumb
+========================================================================== */
 .breadcrumb__breadcrumb-list___1Mepe {
   margin-bottom: 0;
   padding: 0; }
 
+/* ==========================================================================
+Variables
+========================================================================== */
+/* ==========================================================================
+Breadcrumb item
+========================================================================== */
 .breadcrumb__breadcrumb-item___1HluP {
   display: inline-block; }
   .breadcrumb__breadcrumb-item___1HluP:before {
-    color: #ccc;
-    content: "/\A0";
+    color: #fff;
+    content: ">";
     padding: 0 5px; }
   .breadcrumb__breadcrumb-item___1HluP:first-child:before {
     content: "";
     padding: 0; }
 
 .breadcrumb__breadcrumb-link___faoZp {
-  color: #676a6c;
+  color: #fff;
   cursor: pointer;
+  font-size: 12px;
   text-decoration: none; }
+  .breadcrumb__breadcrumb-link___faoZp:hover {
+    text-decoration: underline; }
 
 .breadcrumb__breadcrumb-text___2igeG {
+  color: #ccc;
+  font-size: 12px;
+  font-weight: normal; }
+
+.breadcrumb__breadcrumb-item___1HluP.breadcrumb__dark___2R2GD:before {
+  color: #ccc; }
+
+.breadcrumb__breadcrumb-item___1HluP.breadcrumb__dark___2R2GD .breadcrumb__breadcrumb-link___faoZp {
+  color: #676a6c; }
+
+.breadcrumb__breadcrumb-item___1HluP.breadcrumb__dark___2R2GD .breadcrumb__breadcrumb-text___2igeG {
   color: #333; }

@@ -3,8 +3,9 @@
   "version": "0.3.5",
   "description": "Togakure styles",
   "scripts": {
-    "build": "yarn build:sass && yarn build:js && yarn build:images",
-    "build:sass": "babel source/scss --out-dir lib/scss --copy-files --ignore 06-components",
+    "build": "yarn build:sass && yarn build:css && yarn build:js && yarn build:images",
+    "build:sass": "babel source/scss --out-dir lib/scss --copy-files --ignore 06-components,07-pages",
+    "build:css": "node-sass source/scss/07-pages -o lib/css/07-pages",
     "build:js": "babel source --out-dir lib --ignore bin,images",
     "build:images": "babel source/images --out-dir lib/images --copy-files",
     "lint": "yarn lint:sass && yarn lint:js",
