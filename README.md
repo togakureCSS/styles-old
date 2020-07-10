@@ -1,12 +1,12 @@
 # Togakure Styles
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
-[![GitHub issues](https://img.shields.io/github/issues/org-togakure/styles.svg)](https://github.com/org-togakure/styles/issues)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/org-togakure/styles.svg)
-![GitHub Release Date](https://img.shields.io/github/release-date/org-togakure/styles.svg)
-![GitHub top language](https://img.shields.io/github/languages/top/org-togakure/styles.svg)
-![GitHub repo size](https://img.shields.io/github/repo-size/org-togakure/styles.svg)
-![GitHub All Releases](https://img.shields.io/github/downloads/org-togakure/styles/total.svg)
+[![GitHub issues](https://img.shields.io/github/issues/tgkr/styles.svg)](https://github.com/tgkr/styles/issues)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/tgkr/styles.svg)
+![GitHub Release Date](https://img.shields.io/github/release-date/tgkr/styles.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/tgkr/styles.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/tgkr/styles.svg)
+![GitHub All Releases](https://img.shields.io/github/downloads/tgkr/styles/total.svg)
 ![npm](https://img.shields.io/npm/dt/@togakure/styles.svg)
 
 ## Prerequisites
@@ -105,7 +105,7 @@ Questions and answers
 
 ## Log
 
-Check [Releases](https://github.com/org-togakure/styles/releases) for detailed changelog.
+Check [Releases](https://github.com/tgkr/styles/releases) for detailed changelog.
 
 ## License
 
