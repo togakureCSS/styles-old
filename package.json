@@ -21,7 +21,7 @@
     "togakure",
     "styles"
   ],
-  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (https://github.com/hemersonvianna)",
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (https://nerdcalistenico.com.br)",
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "6.26.0",
@@ -55,5 +55,8 @@
   "bugs": {
     "url": "https://github.com/tgkr/styles/issues"
   },
-  "homepage": "https://github.com/tgkr/styles#readme"
+  "homepage": "https://github.com/tgkr/styles#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
